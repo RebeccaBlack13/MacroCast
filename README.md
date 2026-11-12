@@ -1,2 +1,1 @@
-# MacroCast
-Walk-forward forecasting models for US inflation, industrial production, money supply, and implied volatility (VIX), benchmarked against no-change baselines.
+MacroCast trains and tests ridge, gradient-boosting, and random-forest models on OECD-style CPI, industrial production, and M3 data, plus daily VIX-style volatility indices for seven asset classes. Every model is tested out-of-sample with expanding-window walk-forward validation, respects publication lags, and is compared against a naive no-change forecast and a simple autoregression, so you can see where the models add value and where they don't.
